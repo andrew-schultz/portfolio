@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Andrew Schultz</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<title>Work</title>
 </head>
 <body>
-	<div id="header">
+	<div id="header" class="wH">
 		<div id="title">
 			<a id="titleLink" href="index.html">
 				ANDREW SCHULTZ
 			</a>
 		</div>
-		<nav>
+		<nav id="wNav">
 			<ul>
 				<li class="navLink">
 					<a class="linkText" href="about.html">
@@ -55,17 +56,20 @@
 		</nav>
 	</div>
 	<div id="page">
-		<div class="jumbo">
-			<div class="col">
-				<p class="jText">
-					Future Full Stack Developer
-				</p>
-			</div>
-			<div class="col">	
-				<img class="jImg" src="images/mountainJam.jpg">
-			</div>
-			<div class="col">
-			</div>
+		<div id="body">
+      		<div id="wrapper">
+        		<h1 id="tdheader">THINGS TO DO</h1>
+    			<ul id="tdul">
+		          <li class="li"><i class="fa fa-times-circle"></i>Sleep</li>
+		          <li class="li"><i class="fa fa-times-circle"></i>Eat</li>
+		          <li class="li"><i class="fa fa-times-circle"></i>Code</li>
+		          <li class="li"><i class="fa fa-times-circle"></i>Breath</li>
+		        </ul>
+		        <form id="newInputForm">
+		          <input type="text" id="newInput" placeholder="type here" />
+		          <input type="submit" id="addSubmit" />
+		        </form>
+		    </div>
 		</div>
 	</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
