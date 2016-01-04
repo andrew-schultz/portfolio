@@ -32,6 +32,7 @@ body {
 nav {
 	float: right;
 	margin-top: -7px;
+
 }
 
 #wNav {
@@ -43,6 +44,28 @@ nav {
 	display: inline;
 	padding-right: 20px;
 	font-weight: 200;	
+}
+
+#dm {
+	list-style: none;
+	display: none;
+	position: absolute;
+	z-index: 100;
+	margin-left: 65px;
+}
+
+.dl {
+	padding: 3px;
+	text-align: center;
+	background-color: #f2f2f2;
+	margin: 1px;
+	border: 1px solid #ffffff;
+}
+
+.dl a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 20px;
 }
 
 .linkText {
@@ -213,9 +236,9 @@ iframe {
 	position: relative;
 }
 
-img:hover + div {
+/*img:hover + div {
 	display: block;
-}
+}*/
 
 .secret {
 	height: 300px;
@@ -278,4 +301,90 @@ img:hover + div {
 #gutter div img {
 	border: 1px solid #f2f2f2;
 	border-radius: 50%;
+}
+
+#tdl {
+	padding-top: 70px;
+}
+
+.complete {
+	background-color: red;
+}
+
+#body {
+	padding: 10px;
+	font-family: 'helvetica';
+	padding-top: 100px;
+	margin: 0;
+	color: #ffffff;
+}
+
+#wrapper {
+	width: 400px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #2a3744;
+}
+
+#tdheader {
+	text-align: center;
+}
+
+#tdul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.fa {
+	float: right;
+	margin: 2px;
+	z-index: 200;
+
+}
+
+.li {
+	width: 385px;
+	margin: 5px 10px 5px 3px;
+	padding: 5px;
+	background-color: #71dbdb;
+	font-size: 22px;
+	min-height: 25px;
+	position: relative;
+}
+
+.li span {
+	font-size: 11px;
+	color: #2a3744;
+	width: 68px;
+	float: right;
+	margin-top: 9px;
+}
+
+.li p {
+	width: 360px;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+	display: block;
+}
+
+input[type=text] {
+	padding: 3px;
+	font-size: 22px;
+}
+
+#newInput {
+	width: 303px;
+	color: #a1a1a1;
+	margin-left: 3px;
+	margin-top: 0px;
+}
+
+input[type=submit] {
+	padding: 3px;
+	font-size: 22px;
+	background-color: #ffffff;
+	color: #a1a1a1;
+	margin-left: 1px;
 }
