@@ -1,6 +1,8 @@
 body {
 	font-family: "Helvetica Neue";
 	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
 }
 
 #header {
@@ -129,7 +131,7 @@ iframe {
 }
 
 .work img {
-	margin-top: -37px;
+	margin-top: -30px;
 }
 
 .wText {
@@ -137,6 +139,7 @@ iframe {
 	margin: 0 auto;
 	font-size: 20px;
 	font-weight: 200;
+	padding-bottom: 10px;
 }
 
 .wText h1 {
@@ -146,6 +149,10 @@ iframe {
 .wText h1 a {
 	text-decoration: none; 
 	color: #000000;
+}
+
+#skills li{
+	padding-top: 10px;
 }
 
 #dino {
@@ -303,7 +310,7 @@ iframe {
 	border-radius: 50%;
 }
 
-#tdl {
+.tdl {
 	padding-top: 70px;
 }
 
