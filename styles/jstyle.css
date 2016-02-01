@@ -1,0 +1,352 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue';
+	font-weight: 300;
+	background-color: #283593
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	padding: 2px;
+	background-color: #283593;
+	color: #ffffff;
+}
+
+header h1{
+	font-weight: 300;
+	font-size: 3em;
+}
+
+ul {
+	list-style-type: decimal;
+}
+
+#playcircle {
+	width: 70px;
+	height: 70px;
+	background-color: #283593;
+	z-index: 100;
+	position: relative;
+}
+
+.plsong {
+	padding: 5px 0;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+#page {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#jumbo {
+	width: 100%;
+	height: 500px;
+	background-color: #283593;
+}
+
+#playbar {
+	width: 100%;
+	background-color: #E8EAF6;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+
+}
+
+.pause {
+	width: 12px;
+	height: 35px;
+	background-color: #ffffff;
+	float: left;
+}
+
+.pause1 {
+	margin-right: 10px;
+}
+
+#play {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 35px solid #ffffff;
+	border-bottom: 20px solid transparent;
+	margin-left: 25px;
+	position: absolute;
+	margin-top: 16px;
+}
+
+.hide {
+	display: none;
+}
+
+#pause {
+	width: 35px;
+	height: 35px;
+	margin-left: 19px;
+	position: absolute;
+	margin-top: 19px;
+}
+
+#next {
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: -45px;
+	margin-right: 40.3%;
+}
+
+#nextarrow {
+	border-left: 18px solid #283593;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	float: left;
+}
+
+#nextbar {
+	width: 6px;
+	height: 20px;
+	background-color: #283593;
+	float: left;
+}
+
+#back {
+	width: 50px;
+	height: 50px;
+	margin-left: 42%;
+	position: absolute;
+	margin-top: 25px;
+}
+
+#backarrow {
+	border-right: 18px solid #283593;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	float: left;
+}
+
+#backbar {
+	height: 20px;
+	width: 6px;
+	background-color: #283593;
+	float: left;
+}
+
+#random {
+	width: 30px;
+	height: 30px;
+	float: right;
+	clear: right;
+	margin-right: 35%;
+	margin-top: -48px;
+}
+
+#random i {
+	font-size: 20px;
+	color: #283593;
+}
+
+#vUp {
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-top: -30px;
+	margin-right: 2%;
+}
+
+#vUp i {
+	font-size: 25px;
+	color: #283593;
+}
+
+#vDown {
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-top: -30px;
+	margin-right: 4%;
+}
+
+#vDown i {
+	font-size: 25px;
+	color: #283593;
+}
+
+.button {
+	float: right;
+	clear: both;
+	background-color: #283593;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.topspace {
+	margin-top: 10px;
+}
+
+#displayA {
+	margin-top: 10px;
+}
+
+#display {
+	padding: 20px;
+	min-width: 200px;
+	border: 2px solid white;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	border-radius: 10px;
+	margin-top: 20vh;
+}
+
+#bar {
+	position: relative;
+	height: 10px;
+	width: 100%;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+	margin-top: 10px;
+
+}
+
+#prog {
+	position: absolute;
+	height: 100%;
+	background-color: #ffffff;	
+
+}
+
+.form {
+	float: left;
+	margin-left: 5%;
+	margin-top: -10%;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.userinput {
+	background-color: #283593;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	font-size: 18px;
+	float: right;
+	color: #ffffff;
+}
+
+#playlist {
+	float: right;
+	max-width: 300px;
+	max-height: 300px;
+	overflow: scroll;
+	margin-right: 5%;
+	margin-top: -13%;
+	color: #ffffff;
+}
+
+@media all and (max-width: 1024px) and (min-width: 961px) {
+	#display {
+		margin-top: 2%;
+	}
+
+	.form {
+		margin-top: 5%;
+	}
+
+	#playlist {
+		max-width: 275px;
+		margin-top: 2%;
+	}
+}
+
+@media all and (max-width: 960px) and (min-width: 581px) {
+	#display {
+		margin-top: 2%;
+	}
+
+	#next {
+		margin-right:22%;
+	}
+
+	#back {
+		margin-left: 29%;
+	}
+
+	#random {
+		margin-right: 10%
+	}
+
+
+	.form {
+		margin-top: 5%;
+	}
+
+	#playlist {
+		max-width: 275px;
+		margin-top: 2%;
+	}
+
+}
+
+@media all and (max-width: 580px) {
+
+	#display {
+		margin-top: 2%;
+	}
+
+	.form {
+		margin-top: 2%;
+		margin-right: auto;
+		margin-left: auto;
+		width: 250px;
+		padding: 10px;
+		float: none;
+	}
+
+	#playlist {
+		border-radius: 10px;
+		border: 2px solid #ffffff;
+		padding: 10px;
+		margin-top: 2%;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		max-width: 300px;
+		min-width: 200px;
+	}
+
+	#next {
+		margin-right:20%;
+	}
+
+	#back {
+		margin-left: 27%;
+	}
+
+	#random {
+		margin-right: 7%
+	}
+
+	#vUp {
+		float: left;
+		margin-left: 7%;
+	}
+
+	#vDown {
+		float: left;
+		margin-left: 1%;
+		}
+}

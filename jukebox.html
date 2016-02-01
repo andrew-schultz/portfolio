@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jukebox</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/jstyle.css">
+</head>
+<body>
+	<audio id="song" <source src="https://ia802608.us.archive.org/3/items/gd1977-05-08.shure57.stevenson.29303.flac16/gd1977-05-08d02t05.mp3" type="audio/mpeg" preload="auto" >
+	</audio>
+	<header>
+		<h1 id="title">
+			JIGGITY JAMS
+		</h1>
+	</header>
+	<div id="page">
+		<div id="playbar">
+			<div onclick="jukebox.previous()" id="back">
+				<div id="backbar">
+				</div>
+				<div id="backarrow">
+				</div>
+			</div>	
+			<div id="playcircle" class="circle center">
+				<div onclick="jukebox.play()" id="play" >
+				</div>
+				<div onclick="jukebox.pause()" id="pause" class="hide">
+					<div class="pause pause1">
+					</div>
+					<div class="pause">
+					</div>
+				</div>
+			</div>
+			<div onclick="jukebox.next()" id="next" >
+				<div id="nextarrow">
+				</div>
+				<div id="nextbar">
+				</div>
+			</div>
+			<div onclick="jukebox.random()" id="random" >
+				<i class="fa fa-random"></i>
+			</div>
+			<div onclick="jukebox.volumeDown()" id="vDown" >
+				<i class="fa fa-volume-down"></i>
+			</div>
+			<div onclick="jukebox.volumeUp()" id="vUp" >
+				<i class="fa fa-volume-up"></i>
+			</div>
+		</div>
+		<div id="jumbo">
+			<div id="display">
+				<div id="displayT">
+					Fire on the Mountain
+				</div>
+				<div id="displayA">
+					Grateful Dead
+				</div>
+				<div id="bar">
+					<div id="prog">
+					</div>
+				</div>
+			</div>
+			<div id="playlist">
+				<ul id="list">
+				</ul>
+			</div>
+			<div class="form">
+				<label name="songTitle">Title</label>
+				<input type="text" name="songTitle" id="songTitle" class="userinput"/>
+				<br>
+				<br>
+				<label name="songArtist">Artist</label>
+				<input type="text" name="songArtist" id="songArtist" class="userinput"/>
+				<br>
+				<br>
+				<label name="songURL">URL</label>
+				<input type="text" name="songURL" id="addSong" class="userinput"/>
+				<button id="addButton" onclick="jukebox.addSong()" class="button topspace">Add Song</button>
+			</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="scripts/jscript.js"></script>
+</body>
+</html>
