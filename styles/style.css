@@ -17,6 +17,12 @@ body {
 	padding-top: 8px;
 }
 
+.spanlink {
+	font-weight: 700;
+	font-size: 20px;
+	color: #000000;
+}
+
 #title {
 	font-size: 35px;
 	font-weight: 200;
