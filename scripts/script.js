@@ -12,7 +12,25 @@ $(document).ready(function(){
 			$('#dm').slideUp(300).stop;
 	});
 
+	var firstanimation = function(){
+		$('.aboutImg').animate({
+			left: '300px',
+		});
+	};
 
+
+		$(window).on('scroll', function(){
+			if($(window).scrollTop() > 600){
+				$('.imgL').animate({
+					left: '1250px',
+				});
+				// $('.imgR').animate({
+				// 	left: '300px',
+				// });
+			};
+		});
+
+	
 	$('#newInputForm').on('submit', function(e){
 	//when the submit button on the form is clicked, do this
 		e.preventDefault();
