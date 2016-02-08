@@ -3,6 +3,7 @@ body {
 	background-color: #ffffff;
 	margin: 0;
 	padding: 0;
+	/*overflow: hide;*/
 }
 
 #header {
@@ -15,6 +16,11 @@ body {
 	position: fixed;
 	margin-top: -10px;
 	padding-top: 8px;
+}
+
+#spacer {
+	height: 60px;
+	width: 100%;
 }
 
 .spanlink {
@@ -85,6 +91,11 @@ nav {
 #page {
 	width: 100%;
 	margin-top: 10px;	
+}
+
+#home {
+	width: 100%;
+	margin-top: 10px;
 }
 
 iframe {
@@ -203,6 +214,10 @@ iframe {
 	text-decoration: none;
 }
 
+#about {
+	margin-top: 100px;
+}
+
 #aboutT {
 	width: 80%;
 	margin: 0 auto;
@@ -226,16 +241,17 @@ iframe {
 #aboutI1 {
 	width: 1110px;
 	height: 300px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 }
 
 #aboutI2 {
 	width: 740px;
 	height: 300px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 }
 
 .aboutImg {
+	position: relative;
 	width: 300px;
 	height: 300px;
 	margin-left: 35px;
@@ -249,9 +265,18 @@ iframe {
 	position: relative;
 }
 
-/*img:hover + div {
-	display: block;
-}*/
+.imgL {
+	/*margin-left: -400px;*/
+}
+
+.imgT {
+	margin-left: -1090px;
+}
+
+.imgB {
+	margin-left: -905px;
+}
+
 
 .secret {
 	height: 300px;
