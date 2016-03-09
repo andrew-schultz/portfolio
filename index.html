@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Andrew Schultz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
@@ -12,6 +14,9 @@
 			<a id="titleLink" href="#home">
 				ANDREW SCHULTZ
 			</a>
+		</div>
+		<div>
+			<i class="fa fa-bars"></i>
 		</div>
 		<nav id="wNav">
 			<ul>
@@ -74,15 +79,11 @@
 	</div>
 	<div id="home">
 		<div class="jumbo">
-			<div class="col">
-				<p class="jText">
-					Full Stack Developer
-				</p>
-			</div>
-			<div class="col">	
+			<p class="jText jTextTop">
+				Full Stack Developer
+			</p>
+			<div id="jImgContainer">
 				<img class="jImg" src="images/mountainJam.jpg">
-			</div>
-			<div class="col">
 			</div>
 		</div>
 	</div>
@@ -126,7 +127,7 @@
 				</div>
 			</div>
 			<div id="aboutI2" class="imgB">
-				<div class="aboutImg imgL">
+				<div class="aboutImg2 imgR">
 					<img src="images/babycat.jpg">
 						<div class="secret">
 							<p>
@@ -135,7 +136,7 @@
 						</div>
 					</img>
 				</div>
-				<div class="aboutImg imgL">
+				<div class="aboutImg2 imgR">
 					<img src="images/bowie.jpg">
 						<div class="secret">
 							<p>
@@ -171,15 +172,15 @@
 					This is the first object oriented Javascript site that I made. It's a pretty straight forward webapp that lets you select and play songs from a preloaded playlist. It also gives the user the option to upload they're own songs if they'd like. 
 				</p>
 				<p>
-					The site features a number of different option and controls, each with a corresponing function within the javasript file for increased functionality. This is also my first app that makes use of media queries and is responsive! Click the title to go to the site or right <a href="https://github.com/andrew-schultz/jukebox_js" class="spanlink">HERE</a> to go to the github repository.
+					The site features a number of different options and controls, each with a corresponing function within the javasript file for increased functionality. This is also my first app that makes use of media queries and is responsive! Click the title to go to the site or right <a href="https://github.com/andrew-schultz/jukebox_js" class="spanlink">HERE</a> to go to the github repository.
 				</p>
 			</div>
 		</div>
-		<div class="work" id="wTrees">
-			<img src="images/bigTrees.png">
+		<div class="work tdl" id="wTrees">
+			<img src="images/fwmd_1.png">
 			<div class="wText">
-				<h1 id="trees">
-					<a href="worktreesandsuch.html" target="_blank">Trees and Such</a>
+				<h1 id="tdlist">
+					<a href="https://github.com/andrew-schultz/fun_with_municipal_data" target="_blank">Fun With Municipal Data</a>
 				</h1>
 				<p>
 					This site was made for a homework assignment on the second day of class. The objective of the assignment was to build a basic website and to make git commits along the way at various points of development. The website features a clean design and makes use of floated div's and elements centered using the 'margin: 0 auto' trick.
@@ -203,7 +204,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="work" id="wThrones">
+		<div class="work tdl" id="wThrones">
 			<img src="images/shipper.png">
 			<div class="wText">
 				<h1 id="thrones">
@@ -247,39 +248,33 @@
 		</div>
 		<div id="contact">
 		<div class="jumbo">
-			<div class="col">
-				<p class="jText">
-					email: as173171@gmail.com
-				</p>
-				<p class="jText">
-					<a href="https://github.com/andrew-schultz" target="_blank">
-						github: @andrew-schultz
+			<p class="jText">
+				email: as173171@gmail.com
+			</p>
+			<p class="jText">
+				<a href="https://github.com/andrew-schultz" target="_blank">
+					github: @andrew-schultz
+				</a>
+			</p>		
+			<div id="contact">
+				<div id="dMe">
+					<a href="gutter.html">
+						<img id="me" src="images/me.jpg">
 					</a>
-				</p>
-			</div>		
-			<div class="col">
-				<div id="contact">
-					<div id="dMe">
-						<a href="gutter.html">
-							<img id="me" src="images/me.jpg">
-						</a>
-					</div>
-					<div id="hello">
-						<h1>
-							<a href="gutter.html">
-								Hello!
-							</a>
-						</h1>
-						<p>	
-							Why hello there! Lets link up, drop me a line, send me a messsage, whatever you'd like.
-						</p>
-						<p>
-							<strong>email</strong>: as173171@gmail.com
-						</p>
-					</div>
 				</div>
-			</div>
-			<div class="col">
+				<div id="hello">
+					<h1>
+						<a href="gutter.html">
+							Hello!
+						</a>
+					</h1>
+					<p>	
+						Why hello there! Lets link up, drop me a line, send me a messsage, whatever you'd like.
+					</p>
+					<p>
+						<strong>email</strong>: as173171@gmail.com
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>

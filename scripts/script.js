@@ -6,6 +6,12 @@ $(document).ready(function(){
 		$('.secret').fadeOut(250);
 	});
 
+	$('.aboutImg2').hover(function(){
+		$(this).children().fadeIn(250).stop;
+	}, function(){
+		$('.secret').fadeOut(250);
+	});
+
 	$('#drop').hover(function(){
 		$('#dm').slideDown(300).stop;
 		}, function(){
@@ -22,10 +28,13 @@ $(document).ready(function(){
 		$(window).on('scroll', function(){
 			if($(window).scrollTop() > 600){
 				$('.imgL').animate({
-					left: '1250px',
+					left: '80.1%',
 				});
-				// $('.imgR').animate({
-				// 	left: '300px',
+				$('.imgR').animate({
+					left: '145.1%',
+				});
+				// $('.imgR').css({
+				// 	'margin': '0 auto',
 				// });
 			};
 		});
