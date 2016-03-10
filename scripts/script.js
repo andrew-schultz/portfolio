@@ -24,6 +24,14 @@ $(document).ready(function(){
 		});
 	};
 
+	$('.workBubble').hover(function(){
+		$('this:nth-child(0)').hide(),
+		$('this:nth-child(1)').show();
+	}, function(){
+		$('this:nth-child(1)').hide(),	
+		$('this:nth-child(0)').show();
+	});
+
 
 		// $(window).on('scroll', function(){
 		// 	if($(window).scrollTop() > 600){
