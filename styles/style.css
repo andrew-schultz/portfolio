@@ -148,15 +148,15 @@ iframe {
 	color: #000000;
 }
 
-.work {
+#work {
 	width: 100%;
 	padding-bottom: 20px;
-	background-color: #f2f2f2;
+	text-align: center;
 }
 
-.work img {
+/*.work img {
 	margin-top: -30px;
-}
+}*/
 
 .wText {
 	width: 80%;
@@ -191,14 +191,15 @@ iframe {
 
 #contact {
 	width: 100%;
-	margin-top:50px;
-	padding-bottom: 25px;
+	margin-top: 200px;
+	margin-bottom: 30px;
+	padding-bottom: 55px;
 }
 
 #dMe {
-	padding-top: 20px;
+	padding-top: 4%;
 	margin: 0 auto;
-	width: 30%;
+	width: 35%;
 	min-width: 250px;
 }
 
@@ -216,6 +217,7 @@ iframe {
 #hello h1 a {
 	color: #000000;
 	text-decoration: none;
+	font-weight: 300;
 }
 
 #about {
@@ -245,34 +247,12 @@ iframe {
 	margin-bottom: 20px;
 }
 
-#aboutI1 {
-	width: 78%;
-	margin: 0 auto;
-	margin-left: -50%;
-}
-
-#aboutI2 {
-	width: 52%;
-	margin: 0 auto;
-	margin-left: -50%;
-}
-
 .aboutImg {
 	position: relative;
-	width: 26%;
-	/*height: 300px;*/
+	width: 25%;
 	margin-left: 4%;
 	margin-right: 3px;
-	display: inline-block;
-}
-
-.aboutImg2 {
-	position: relative;
-	width: 40%;
-	/*height: 300px;*/
-	margin-left: 3%;
-	margin-right: 3%;
-	display: inline-block;
+	display: block;
 }
 
 .aboutImg img {
@@ -282,37 +262,52 @@ iframe {
 	position: relative;
 }
 
-.aboutImg2 img {
-	width: 100%;
-	border: 1px solid #ffffff;
-	border-radius: 50%;
-	position: relative;
+#aboutLeft {
+	float: left;
+	width: 30%;
 }
 
-.work img {
-	width: 100%;
+#aboutRight {
+	float: right;
 }
 
-.imgR {
-	/*margin-left: -400px;*/
+#hello a {
+	text-decoration: none;
 }
 
-.imgR {
-
+.conIcons {
+	text-align: center;
+	font-size: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #000000;
 }
 
-.imgT {
-	margin-left: -750%;
+/*.img1 {
+	top: 300px;
+	left: 100px;
 }
 
-.imgB {
-	margin-left: -600%;
+.img2 {
+	top: 110px;
 }
 
+.img3 {
+	top: 20px;
+}
+
+.img4 {
+	top: 110px;
+}
+
+.img5 {
+	top: 300px;
+	right: 100px;
+}*/
 
 .secret {
 	width: 100%;
-	height: 100%;
+	/*height: 100%;*/
 	margin-top: -305px;
 	background-color: #f2f2f2;
 	border: 1px solid #f2f2f2;
@@ -335,7 +330,7 @@ iframe {
 .secret p {
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 138px;
+	/*padding-top: 138px;*/
 	font-size: 20px;
 }
 
@@ -344,6 +339,39 @@ iframe {
 	margin: 0 auto;
 	padding-top: 138px;
 	font-size: 20px;
+}
+
+.project {
+	width: 23%;
+	display: inline-block;
+	margin: 10px;
+	min-width: 150px;
+
+}
+
+.project p {
+	font-size: 26px;
+	font-weight: 300;
+	margin-top: 0px;
+}
+
+.workBubble {
+	width: 100%;
+}
+
+.workBubble img {
+	width: 100%;
+	border-radius: 50%;
+	border: 1px solid #d9d9d9;
+}
+
+#workTitle {
+	text-align: center;
+}
+
+#workTitle p {
+	font-size: 45px;
+	font-weight: 300;
 }
 
 .linkText:hover {
@@ -395,88 +423,8 @@ iframe {
 	padding-top: 70px;
 }
 
-.complete {
-	background-color: red;
-}
-
-#body {
-	font-family: 'helvetica';
-	margin: 0;
-	color: #ffffff;
-	margin-top: 0px;
-}
-
-#wrapper {
-	width: 400px;
-	margin: 0 auto;
-	padding: 10px;
-	background-color: #2a3744;
-}
-
-#tdheader {
-	text-align: center;
-}
-
-#tdul {
-	list-style: none;
-	padding: 0;
-	margin: 0 auto;
-}
-
-.fa {
-	float: right;
-	margin: 2px;
-	z-index: 200;
-}
-
 .fa-bars {
 	display: none;
-}
-
-.li {
-	width: 385px;
-	margin: 5px 10px 5px 3px;
-	padding: 5px;
-	background-color: #71dbdb;
-	font-size: 22px;
-	min-height: 25px;
-	position: relative;
-}
-
-.li span {
-	font-size: 11px;
-	color: #2a3744;
-	width: 68px;
-	float: right;
-	margin-top: 9px;
-}
-
-.li p {
-	width: 360px;
-	padding: 0;
-	margin: 0;
-	z-index: 1;
-	display: block;
-}
-
-input[type=text] {
-	padding: 3px;
-	font-size: 22px;
-}
-
-#newInput {
-	width: 303px;
-	color: #a1a1a1;
-	margin-left: 3px;
-	margin-top: 0px;
-}
-
-input[type=submit] {
-	padding: 3px;
-	font-size: 22px;
-	background-color: #ffffff;
-	color: #a1a1a1;
-	margin-left: 1px;
 }
 
 @media all and (max-width: 960px) and (min-width: 701px) {
@@ -507,6 +455,7 @@ input[type=submit] {
 		padding-top: 7px;
 		padding-right: 7px;
 		font-size: 20px;
+		float: right;
 	}
 
 	#title {
@@ -547,10 +496,6 @@ input[type=submit] {
 		margin-top: 0px;
 	}
 
-	#contact {
-		padding-bottom: 55px;
-	}
-
 	#home {
 		padding-bottom: 180px;
 	}
@@ -565,6 +510,15 @@ input[type=submit] {
 
 	.wText p {
 		font-size: 18px;
+	}
+
+	#contact {
+		margin-top: 0px;
+		margin-bottom: 100px;
+	}
+
+	.conIcons {
+		font-size: 40px;
 	}
 
 }
