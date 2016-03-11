@@ -291,27 +291,52 @@ iframe {
 }
 
 .project {
-	width: 20%;
-	display: inline-block;
-	margin: 10px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 	min-width: 150px;
-
+	margin-bottom: 10vh;
 }
 
-.project p {
-	font-size: 26px;
+#workTitle {
+	text-align: center;
+}
+
+#workTitle p {
+	font-size: 60px;
+	font-weight: 300;
+}
+
+.workInd {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5vh;
+}
+
+.workIndTitle {
+	font-size: 30px;
 	font-weight: 300;
 	margin-top: 0px;
+	width: 100%;
+}
+
+.workIndText {
+	width: 90%;
+	margin: 0 auto;
+	font-size: 16px;
+	text-align: left;
 }
 
 .workBubble {
-	width: 100%;
+	width: 45%;
+	display: inline-block;
 }
 
 .workBubble img {
 	width: 100%;
 	border-radius: 50%;
-	border: 1px solid #d9d9d9;
+	border: 1px solid #000000;
 }
 
 .bubbleH {
@@ -324,58 +349,8 @@ iframe {
 	display: none;
 }
 
-#workTitle {
-	text-align: center;
-}
-
-#workTitle p {
-	font-size: 45px;
-	font-weight: 300;
-}
-
 .linkText:hover {
 	opacity: 0.7;
-}
-
-#gutter {
-	width: 80%;
-	height: 700px;
-	margin: 0 auto;
-	background-color: #ccffcc;
-}
-
-#gutter div {
-	width: 48%;
-	float: left;
-	margin: 1%;
-	text-align: center;
-	background-color: #f2f2f2;
-	height: 97%
-}
-
-#gutter div h1{
-	margin-top: 20%;
-}
-
-#gutter div p{
-	font-size: 23px;
-	width: 80%;
-	margin: 0 auto;
-	padding: 10px;
-}
-
-#gutter div ul {
-	list-style: none;
-	margin-left: -6%;
-}
-
-#gutter div ul li {
-	font-size: 20px;
-}
-
-#gutter div img {
-	border: 1px solid #f2f2f2;
-	border-radius: 50%;
 }
 
 .tdl {
