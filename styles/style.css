@@ -13,6 +13,13 @@ body {
 	z-index: 100;
 }
 
+#menu {
+	top: -100px;
+	width: 100%;
+	background-color: #f2f2f2;
+	position: relative;
+}
+
 .wH {
 	position: fixed;
 	margin-top: -10px;
@@ -51,7 +58,6 @@ body {
 nav {
 	float: right;
 	margin-top: -7px;
-
 }
 
 #wNav {
@@ -63,6 +69,13 @@ nav {
 	display: inline;
 	padding-right: 20px;
 	font-weight: 200;	
+}
+
+.menuLink {
+	list-style: none;
+	font-weight: 200px;
+	text-align: right;
+	padding-right: 10px;
 }
 
 #dm {
@@ -314,8 +327,9 @@ iframe {
 	.fa-bars {
 		display: inline-block;
 		padding-top: 7px;
-		padding-right: 7px;
+		padding-right: 15px;
 		font-size: 20px;
+		float: right;
 	}
 
 	.project {
@@ -470,7 +484,7 @@ iframe {
 		width: 100%;
 		display: block;
 		vertical-align: top;
-		margin-top: 5vh;
+		margin-top: 5%;
 		margin-left: auto;
 		margin-right: auto;
 	}
