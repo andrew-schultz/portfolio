@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+	$('.fa-bars').on('click', function(){
+		if($('#menu').hasClass('open')){
+			$('#menu').removeClass('open');
+			$('#menu').animate({
+				top: '-100px',
+			});
+		} else {
+			$('#menu').addClass('open');
+			$('#menu').animate({
+				top: '25px',
+			});
+		};
+	});
 
 
 		// $(window).on('scroll', function(){
