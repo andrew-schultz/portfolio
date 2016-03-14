@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
 </head>
 <body>
 	<div id="header" class="wH">
@@ -145,11 +146,9 @@
 				<img id="me" src="images/me.jpg">
 			</div>
 			<div id="hello">
-				<h1>
-					<a href="gutter.html">
-						Hello!
-					</a>
-				</h1>
+				<p id="helloText">
+					Hello!
+				</p>
 				<a href="https://github.com/andrew-schultz">
 					<i class="fa fa-github conIcons"></i>
 				</a>
@@ -167,51 +166,6 @@
 			<p>
 				Projects
 			</p>
-		</div>
-		<div class="project">
-			<div class="workBubble">
-				<a href="workdinothunder.html" class="bubbleLink">
-					<img src="images/bigDinoS.png">
-					<div class="bubbleH">
-						asdf
-					</div>
-				</a>
-			</div>
-			<div class="workInd">
-				<div class="workcenter">
-				<p class="workIndTitle">
-					Dinothunder
-				</p>
-				<div class="workIndText">
-					<p>
-						This website was made for a prework assignment that asked us to create a basic website using HTML and CSS. The site features some of the basic CSS layout principles that we learned, including a floated image gallery and a basic three column layout. I tried to use a simple but still visually pleasing style.
-					</p>
-					<p>
-						Why a website about dinosaurs? It's quite simple really. I was watching the original Jurassic Park for the hundreth time while I was starting to conceptualize the website and after getting lost in Jeff Goldblum's hazel eyes for awhile figured hey why not dinosaurs.
-					</p>
-				</div>
-			</div>
-			</div>
-		</div>
-		<div class="project">
-			<div class="workInd">
-				<p class="workIndTitle">
-					Jiggity Jams
-				</p>
-				<div class="workIndText">
-					<p>
-						This is the first object oriented Javascript site that I made. It's a pretty straight forward webapp that lets you select and play songs from a preloaded playlist. It also gives the user the option to upload they're own songs if they'd like. 
-					</p>
-					<p>
-						The site features a number of different options and controls, each with a corresponing function within the javasript file for increased functionality. This is also my first app that makes use of media queries and is responsive! Click the title to go to the site or right <a href="https://github.com/andrew-schultz/jukebox_js" class="spanlink">HERE</a> to go to the github repository.
-					</p>
-				</div>
-			</div>
-			<div class="workBubble">
-				<a href="jukebox.html">
-					<img src="images/jukeboxS.png">
-				</a>
-			</div>
 		</div>
 		<div class="project">
 			<div class="workBubble">
@@ -234,23 +188,66 @@
 			</div>
 		</div>
 		<div class="project">
+			<div class="workBubble">
+				<a href="https://github.com/thisisniall/buy-in-election">
+					<img src="images/buy_inS.png">
+				</a>
+			</div>
 			<div class="workInd">
 				<p class="workIndTitle">
-					Bumblr
+					Buy-In Election
 				</p>
 				<div class="workIndText">
 					<p>
-						My first rails app. This was a collaborative project in which we were charged with creating an app that had the same basic functionality as webapps like Twitter and Tumbler. 
+						Buy-In Election is a simulated Political Futures market for the 2016 presidential election. User's can 'buy and sell' shares of candidates at current prices that are being pulled directly from the Iowa Electronic Markets. 
 					</p>
 					<p>
-						The site features multiple models and controllers that work together to create a comprehensive user experience. User's can create and edit accounts, log in, create and edit posts, follow/unfollow other users, and comment on individual posts. The site uses the carrierwave gem to allow user uploads to be used as avatars throughout the site. 
+						I built everything on the front end of this wesbite. That includes but isn't limited too the D3.js, jQuery, and nearly all of the HTML/CSS/SaSS. I'm also responsible for the API and Nokogiri Gem integration
 					</p>
 				</div>
 			</div>
+		</div>
+		<div class="project">
 			<div class="workBubble">
-				<a href="https://github.com/thisisniall/group_rails_blog">
-					<img src="images/twitter_tumbler_cloneS.png">
+				<a href="workdinothunder.html" class="bubbleLink">
+					<img src="images/bigDinoS.png">
+					<div class="bubbleH">
+						asdf
+					</div>
 				</a>
+			</div>
+			<div class="workInd">
+				<p class="workIndTitle">
+					Dinothunder
+				</p>
+				<div class="workIndText">
+					<p>
+						This website was made for a prework assignment that asked us to create a basic website using HTML and CSS. The site features some of the basic CSS layout principles that we learned, including a floated image gallery and a basic three column layout. I tried to use a simple but still visually pleasing style.
+					</p>
+					<p>
+						Why a website about dinosaurs? It's quite simple really. I was watching the original Jurassic Park for the hundreth time while I was starting to conceptualize the website and after getting lost in Jeff Goldblum's hazel eyes for awhile figured hey why not dinosaurs.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="project">
+			<div class="workBubble">
+				<a href="https://github.com/andrew-schultz/sit_stay_play">
+					<img src="images/sitstayplayS.png">
+				</a>
+			</div>
+			<div class="workInd">
+				<p class="workIndTitle">
+					Sit Stay Play
+				</p>
+				<div class="workIndText">
+					<p>
+						This was a group project and also my first somewhat fleshed out website in sinatra.
+					</p>
+					<p>
+						The site features multiple views that all work within a layout erb. I also included some jquery events to add some movement and points of interest to an otherwise static site.
+					</p>
+				</div>
 			</div>
 		</div>
 		<div class="project">
@@ -274,23 +271,43 @@
 			</div>
 		</div>
 		<div class="project">
+			<div class="workBubble">
+				<a href="jukebox.html">
+					<img src="images/jukeboxS.png">
+				</a>
+			</div>
 			<div class="workInd">
 				<p class="workIndTitle">
-					Sit Stay Play
+					Jiggity Jams
 				</p>
 				<div class="workIndText">
 					<p>
-						This was a group project and also my first somewhat fleshed out website in sinatra.
+						This is the first object oriented Javascript site that I made. It's a pretty straight forward webapp that lets you select and play songs from a preloaded playlist. It also gives the user the option to upload they're own songs if they'd like. 
 					</p>
 					<p>
-						The site features multiple views that all work within a layout erb. I also included some jquery events to add some movement and points of interest to an otherwise static site.
+						The site features a number of different options and controls, each with a corresponing function within the javasript file for increased functionality. This is also my first app that makes use of media queries and is responsive! Click the title to go to the site or right <a href="https://github.com/andrew-schultz/jukebox_js" class="spanlink">HERE</a> to go to the github repository.
 					</p>
 				</div>
 			</div>
+		</div>
+		<div class="project">
 			<div class="workBubble">
-				<a href="https://github.com/andrew-schultz/sit_stay_play">
-					<img src="images/sitstayplayS.png">
+				<a href="https://github.com/thisisniall/group_rails_blog">
+					<img src="images/twitter_tumbler_cloneS.png">
 				</a>
+			</div>
+			<div class="workInd">
+				<p class="workIndTitle">
+					Bumblr
+				</p>
+				<div class="workIndText">
+					<p>
+						My first rails app. This was a collaborative project in which we were charged with creating an app that had the same basic functionality as webapps like Twitter and Tumbler. 
+					</p>
+					<p>
+						The site features multiple models and controllers that work together to create a comprehensive user experience. User's can create and edit accounts, log in, create and edit posts, follow/unfollow other users, and comment on individual posts. The site uses the carrierwave gem to allow user uploads to be used as avatars throughout the site. 
+					</p>
+				</div>
 			</div>
 		</div>
 		<div class="project">
@@ -314,7 +331,5 @@
 			</div>
 		</div>
 	</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src="scripts/script.js"></script>
 </body>
 </html>
