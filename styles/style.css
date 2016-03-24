@@ -115,12 +115,6 @@ nav {
 	width: 100%;
 }
 
-iframe {
-	margin-left: -5px;
-	margin-top: 50px;
-	border: none;
-}
-
 .jumbo {
 	width: 100%;
 	margin: 0 auto;
@@ -317,11 +311,19 @@ iframe {
 	.workInd {
 		margin-top: 1%;
 	}
+
+	.jImg {
+		margin-top: 15vh;
+	}
 }
 
 @media all and (max-width: 720px) and (min-width: 481px) {
 	#wNav {
 		display: none;
+	}
+
+	.jImg {
+		margin-top: 16vh;
 	}
 
 	.fa-bars {
