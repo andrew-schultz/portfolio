@@ -14,10 +14,13 @@ body {
 }
 
 #menu {
-	top: -100px;
 	width: 100%;
+	min-width: 180px;
 	background-color: #f2f2f2;
-	position: relative;
+	position: absolute;
+	z-index: -1;
+	display: none;
+	top: 50px;
 }
 
 .wH {
@@ -71,11 +74,21 @@ nav {
 	font-weight: 200;	
 }
 
+#menu_ul {
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+
 .menuLink {
 	list-style: none;
 	font-weight: 300;
 	text-align: right;
 	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d9d9d9;
 }
 
 #dm {
@@ -237,11 +250,13 @@ nav {
 }
 
 .project {
-	width: 80%;
+	width: 45%;
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 150px;
 	margin-bottom: 10vh;
+	display: inline-block;
+	vertical-align: top;
 }
 
 #workTitle {
@@ -254,10 +269,11 @@ nav {
 }
 
 .workInd {
-	width: 50%;
-	display: inline-block;
+	width: 90%;
 	vertical-align: top;
 	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .workIndTitle {
@@ -275,7 +291,7 @@ nav {
 }
 
 .workBubble {
-	width: 45%;
+	width: 80%;
 	display: inline-block;
 }
 
@@ -312,8 +328,16 @@ nav {
 		margin-top: 1%;
 	}
 
+	#jImgContainer {
+		width: 70%;
+	}
+
 	.jImg {
 		margin-top: 15vh;
+	}
+
+	#dMe {
+		width: 65%;
 	}
 }
 
@@ -322,8 +346,16 @@ nav {
 		display: none;
 	}
 
+	#jImgContainer {
+		width: 70%;
+	}
+
 	.jImg {
 		margin-top: 16vh;
+	}
+
+	#dMe {
+		width: 65%;
 	}
 
 	.fa-bars {
@@ -375,7 +407,7 @@ nav {
 	}
 
 	.workBubble {
-		width: 70%;
+		width: 80%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -389,6 +421,7 @@ nav {
 }
 
 @media all and (max-width: 480px) {
+
 	#spacer {
 		height: 45px;
 		width: 100%;
