@@ -3,14 +3,10 @@ $(document).ready(function(){
 	$('.fa-bars').on('click', function(){
 		if($('#menu').hasClass('open')){
 			$('#menu').removeClass('open');
-			$('#menu').animate({
-				top: '-100px',
-			});
+			$('#menu').slideUp();
 		} else {
 			$('#menu').addClass('open');
-			$('#menu').animate({
-				top: '25px',
-			});
+			$('#menu').slideDown();
 		};
 	});
 
