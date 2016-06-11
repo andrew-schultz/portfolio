@@ -167,11 +167,19 @@ nav {
 	text-decoration: none;
 	color: #000000;
 }
-
+/*
 #work {
 	width: 100%;
 	padding-bottom: 20px;
 	text-align: center;
+}*/
+#work {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
 }
 
 .wText {
@@ -251,16 +259,17 @@ nav {
 
 .project {
 	width: 45%;
-	margin-left: auto;
-	margin-right: auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
 	min-width: 150px;
 	margin-bottom: 10vh;
-	display: inline-block;
+	/*display: inline-block;*/
 	vertical-align: top;
 }
 
 #workTitle {
 	text-align: center;
+	width: 100%;
 }
 
 #workTitle p {
@@ -281,6 +290,7 @@ nav {
 	font-weight: 300;
 	margin-top: 0px;
 	width: 100%;
+	text-align: center;
 }
 
 .workIndText {
@@ -292,7 +302,7 @@ nav {
 
 .workBubble {
 	width: 70%;
-	display: inline-block;
+	margin: 0 auto;
 }
 
 .workBubble img {
